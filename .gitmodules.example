@@ -1,0 +1,60 @@
+# Example .gitmodules Configuration
+#
+# This file is automatically created when you add submodules.
+# It tracks the configuration of all nested repositories.
+#
+# Format:
+# [submodule "name"]
+#     path = local/path/to/submodule
+#     url = https://github.com/username/repository.git
+#     branch = branch-to-track (optional)
+
+# Example 1: Simple WPH project at root level
+[submodule "WPH-project"]
+    path = WPH-project
+    url = https://github.com/username/WPH-project.git
+    branch = main
+
+# Example 2: Multiple WPH projects organized in a directory
+[submodule "WPH-1"]
+    path = projects/WPH-1
+    url = https://github.com/username/WPH-1.git
+    branch = main
+
+[submodule "WPH-2"]
+    path = projects/WPH-2
+    url = https://github.com/username/WPH-2.git
+    branch = main
+
+[submodule "WPH-3"]
+    path = projects/WPH-3
+    url = https://github.com/username/WPH-3.git
+    branch = main
+
+# Example 3: Shared components
+[submodule "ui-components"]
+    path = shared/ui-components
+    url = https://github.com/username/ui-components.git
+    branch = develop
+
+[submodule "utils"]
+    path = shared/utils
+    url = https://github.com/username/shared-utils.git
+    branch = main
+
+# Example 4: External dependencies
+[submodule "bootstrap-custom"]
+    path = vendor/bootstrap-custom
+    url = https://github.com/username/bootstrap-custom.git
+    branch = main
+
+# Notes:
+# - 'path' is the local directory where the submodule will be placed
+# - 'url' is the Git repository URL (can be HTTPS or SSH)
+# - 'branch' is optional but recommended to auto-track a specific branch
+# - This file should be committed to your repository
+#
+# To add a new submodule:
+#   git submodule add <url> <path>
+#
+# This will automatically update .gitmodules
