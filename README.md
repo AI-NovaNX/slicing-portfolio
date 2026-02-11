@@ -71,20 +71,33 @@ git commit -m "Remove submodule"
 
 ## Documentation
 
-For more detailed information, see:
-- [SUBMODULES.md](SUBMODULES.md) - Comprehensive guide on working with Git submodules
-- [EXAMPLES.md](EXAMPLES.md) - Practical examples and common scenarios
+📚 **[Complete Documentation Index](INDEX.md)** - Start here to find what you need!
+
+Core documentation:
+- **[TUTORIAL.md](TUTORIAL.md)** - Step-by-step tutorial for beginners (Indonesian)
+- **[SUBMODULES.md](SUBMODULES.md)** - Comprehensive guide on Git submodules (Indonesian)
+- **[EXAMPLES.md](EXAMPLES.md)** - 10 practical examples and real-world scenarios
+- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Command cheat sheet for quick lookup
+- **[VISUAL_GUIDE.md](VISUAL_GUIDE.md)** - Visual diagrams and workflows
+- **[FAQ.md](FAQ.md)** - 32 frequently asked questions with detailed answers
+- **[.gitmodules.example](.gitmodules.example)** - Configuration file template
 
 ## Project Structure
 
 ```
 slicing-portfolio/
-├── README.md
-├── SUBMODULES.md          # Detailed submodule documentation
-├── EXAMPLES.md            # Practical examples
-└── [nested-repos]/        # Your nested repositories (submodules)
-    ├── WPH-project/       # Example nested repository
-    └── other-repos/       # Other submodules
+├── README.md                  # Overview and quick start (you are here)
+├── INDEX.md                   # Complete documentation index
+├── TUTORIAL.md                # Step-by-step tutorial (Indonesian)
+├── SUBMODULES.md              # Comprehensive guide (Indonesian)
+├── EXAMPLES.md                # Practical examples
+├── QUICK_REFERENCE.md         # Command cheat sheet
+├── VISUAL_GUIDE.md            # Visual diagrams
+├── FAQ.md                     # Frequently asked questions
+├── .gitmodules.example        # Configuration template
+└── [nested-repos]/            # Your nested repositories (submodules)
+    ├── WPH-project/           # Example nested repository
+    └── other-repos/           # Other submodules
 ```
 
 ## Contributing
