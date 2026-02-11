@@ -257,3 +257,4 @@ A: Tambahkan URL submodule yang sama di beberapa repository. Setiap repository a
 
 **Q: Apakah tim saya perlu melakukan sesuatu yang khusus?**  
 A: Ya, mereka harus clone dengan `--recursive` atau menjalankan `git submodule update --init --recursive` setelah clone.
+

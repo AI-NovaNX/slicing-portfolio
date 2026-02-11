@@ -10,7 +10,7 @@ Complete guide untuk menggunakan nested repositories (Git submodules) di slicing
    - Overview of nested repositories
    - Quick start guide
    - Basic commands
-   - ~111 lines
+   - ~125 lines
 
 ### 📚 Core Documentation
 
@@ -18,14 +18,14 @@ Complete guide untuk menggunakan nested repositories (Git submodules) di slicing
    - Tutorial lengkap untuk pemula
    - 6 tutorial praktis dengan langkah detail
    - Troubleshooting umum
-   - ~327 lines | ⏱️ 15-20 menit
+   - ~328 lines | ⏱️ 15-20 menit
 
 3. **[SUBMODULES.md](SUBMODULES.md)** - Comprehensive Guide
    - Panduan lengkap Git submodules (Bahasa Indonesia)
    - Semua perintah dengan penjelasan
    - Best practices
    - Troubleshooting mendalam
-   - ~259 lines | ⏱️ 20-25 menit
+   - ~260 lines | ⏱️ 20-25 menit
 
 ### 💡 Practical Resources
 
@@ -34,14 +34,14 @@ Complete guide untuk menggunakan nested repositories (Git submodules) di slicing
    - Real-world scenarios
    - WPH project examples
    - Common patterns
-   - ~388 lines | ⏱️ 15-20 menit
+   - ~389 lines | ⏱️ 15-20 menit
 
 5. **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Quick Reference
    - Cheat sheet perintah Git submodules
    - Referensi cepat saat bekerja
    - Workflow umum
    - Tips pro
-   - ~215 lines | ⏱️ 5 menit
+   - ~216 lines | ⏱️ 5 menit
 
 ### 📊 Visual & Reference
 
@@ -50,14 +50,14 @@ Complete guide untuk menggunakan nested repositories (Git submodules) di slicing
    - Struktur repository
    - Workflow dengan gambar
    - Architecture overview
-   - ~443 lines | ⏱️ 10-15 menit
+   - ~318 lines | ⏱️ 10-15 menit
 
 7. **[FAQ.md](FAQ.md)** - Frequently Asked Questions
    - 32 pertanyaan yang sering ditanyakan
    - Jawaban lengkap dengan contoh
    - Troubleshooting
    - Best practices
-   - ~367 lines | ⏱️ 10-15 menit
+   - ~494 lines | ⏱️ 10-15 menit
 
 ### 🔧 Configuration
 
@@ -65,7 +65,7 @@ Complete guide untuk menggunakan nested repositories (Git submodules) di slicing
    - Template file .gitmodules
    - Contoh konfigurasi berbagai scenario
    - Dengan komentar penjelasan
-   - ~60 lines
+   - ~61 lines
 
 ## 🎯 Quick Navigation
 
@@ -128,14 +128,16 @@ Complete guide untuk menggunakan nested repositories (Git submodules) di slicing
 
 | Document | Lines | Estimated Reading Time | Language |
 |----------|-------|----------------------|----------|
-| README.md | 111 | 5 min | English |
-| TUTORIAL.md | 327 | 15-20 min | Indonesian |
-| SUBMODULES.md | 259 | 20-25 min | Indonesian |
-| EXAMPLES.md | 388 | 15-20 min | English |
-| QUICK_REFERENCE.md | 215 | 5 min | Indonesian |
-| VISUAL_GUIDE.md | 443 | 10-15 min | English |
-| FAQ.md | 367 | 10-15 min | Indonesian |
-| **Total** | **2,110** | **~90 min** | **Bilingual** |
+| README.md | 125 | 5 min | English |
+| INDEX.md | 229 | 5 min | English |
+| TUTORIAL.md | 328 | 15-20 min | Indonesian |
+| SUBMODULES.md | 260 | 20-25 min | Indonesian |
+| EXAMPLES.md | 389 | 15-20 min | English |
+| QUICK_REFERENCE.md | 216 | 5 min | Indonesian |
+| VISUAL_GUIDE.md | 318 | 10-15 min | English |
+| FAQ.md | 494 | 10-15 min | Indonesian |
+| .gitmodules.example | 61 | 2 min | Configuration |
+| **Total** | **2,420** | **~90 min** | **Bilingual** |
 
 ## 🎓 Learning Path
 
@@ -226,3 +228,4 @@ Found an error or want to improve the documentation?
 **Happy Learning!** 🚀
 
 Start with [README.md](README.md) if you're new to nested repositories!
+

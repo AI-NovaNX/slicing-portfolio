@@ -386,3 +386,4 @@ Git submodules are powerful for organizing multiple repositories within a portfo
 5. **Remove**: `git submodule deinit` → `git rm`
 
 For the original question "Can I create my repository inside another repository like WPH-?" - **Yes, absolutely!** Use the examples above to add your WPH projects as submodules.
+
