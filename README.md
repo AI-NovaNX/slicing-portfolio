@@ -1,11 +1,11 @@
-
 # slicing-portfolio
 
 Slicing Portfolio Challenge
 
-Misi: mengubah desain Figma menjadi website portfolio menggunakan Next.js + Tailwind CSS, dengan animasi dari Framer Motion.
+Tujuan project : mengubah desain Figma menjadi website portfolio menggunakan Next.js + Tailwind CSS, dengan animasi dari Framer Motion.
 
 Stack repo ini:
+
 - Next.js (App Router) + TypeScript
 - Tailwind CSS
 - shadcn/ui (Radix UI)
