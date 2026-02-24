@@ -76,7 +76,7 @@ export function Working() {
             <div className="mt-6 flex items-center justify-center">
               <div className="relative size-16 overflow-hidden rounded-full border border-neutral-800 bg-neutral-900">
                 <Image
-                  src="/Portrait of a Young Man 1.svg"
+                  src="/Portrait of a Young Man 1.png"
                   alt=""
                   fill
                   sizes="60px"
@@ -147,7 +147,7 @@ export function Working() {
               <div className="mt-8 flex justify-center">
                 <div className="relative size-20 overflow-hidden rounded-full border border-neutral-800 bg-neutral-900">
                   <Image
-                    src="/Portrait of a Young Man 1.svg"
+                    src="/Portrait of a Young Man 1.png"
                     alt=""
                     fill
                     sizes="80px"

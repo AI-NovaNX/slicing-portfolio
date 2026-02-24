@@ -168,12 +168,11 @@ export function ContactForm() {
               <div className="relative h-[640px] w-[420.8924865722656px] overflow-hidden rounded-none bg-base-black">
                 <div className="relative h-full w-full">
                   <Image
-                    src="/Portrait of a Young Man 1.svg"
+                    src="/Portrait of a Young Man 1.png"
                     alt=""
                     fill
                     sizes="420.8924865722656px"
                     className="object-cover grayscale contrast-95 brightness-25 opacity-100"
-                    priority
                   />
 
                   <div

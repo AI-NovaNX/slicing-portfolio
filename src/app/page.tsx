@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import HomeTop from "@/components/Home";
 import HomeGuides from "@/components/HomeGuides";
 import Hero from "@/components/hero";
@@ -24,11 +26,13 @@ export default function HomePage() {
           <div className="relative h-full w-full [--green-start:53%] isolate">
             <div className="pointer-events-none absolute inset-0 z-0 rotate-[-1.45deg]">
               <div className="relative h-full w-full">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/Portrait of a Young Man 1.svg"
+                <Image
+                  src="/Portrait of a Young Man 1.png"
                   alt=""
-                  className="h-full w-full object-fill grayscale contrast-95 brightness-70"
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-fill grayscale contrast-95 brightness-70"
+                  priority
                 />
 
                 <div className="pointer-events-none absolute inset-x-0 top-[42%] bottom-0 bg-linear-to-b from-transparent via-neutral-950/80 to-black mix-blend-multiply opacity-90" />

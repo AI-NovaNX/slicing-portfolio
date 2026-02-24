@@ -30,7 +30,7 @@ export function MediaSocial() {
           style={{ aspectRatio: "361 / 520" }}
         >
           <Image
-            src="/Portrait of a Young Man 1.svg"
+            src="/Portrait of a Young Man 1.png"
             alt=""
             fill
             sizes="(max-width: 768px) 100vw, 393px"

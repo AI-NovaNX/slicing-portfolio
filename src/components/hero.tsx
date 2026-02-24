@@ -14,7 +14,7 @@ export function Hero() {
             <div className="pointer-events-none absolute inset-0 z-0 rotate-[-1.45deg]">
               <div className="relative h-full w-full">
                 <Image
-                  src="/Portrait of a Young Man 1.svg"
+                  src="/Portrait of a Young Man 1.png"
                   alt="Portrait"
                   fill
                   sizes="(max-width: 640px) 100vw, 640px"
