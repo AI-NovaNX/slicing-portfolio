@@ -64,7 +64,6 @@ export function Service() {
                       width={32}
                       height={32}
                       className="h-8 w-8"
-                      priority={idx === 0}
                     />
                   </div>
 
@@ -124,7 +123,6 @@ export function Service() {
                     width={32}
                     height={32}
                     className="h-8 w-8"
-                    priority={idx === 0}
                   />
                 </div>
 

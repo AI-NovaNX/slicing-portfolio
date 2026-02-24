@@ -183,7 +183,6 @@ export function Header({ className }: { className?: string }) {
               width={40}
               height={1}
               className="h-px w-6 object-contain md:w-10"
-              priority
             />
             <span className="text-center font-sans text-md font-bold leading-(--text-md--line-height) tracking-[0px] text-base-white md:text-xl md:leading-normal md:tracking-normal md:text-primary-200">
               Antonius.
@@ -229,7 +228,6 @@ export function Header({ className }: { className?: string }) {
                 width={40}
                 height={40}
                 className="h-6 w-6 sm:h-6 sm:w-6"
-                priority
               />
             </button>
           </div>
@@ -256,7 +254,6 @@ export function Header({ className }: { className?: string }) {
                 width={40}
                 height={1}
                 className="h-px w-6 object-contain"
-                priority
               />
               <span className="text-center font-sans text-md font-bold leading-(--text-md--line-height) tracking-[0px] text-base-white">
                 Antonius.
@@ -275,7 +272,6 @@ export function Header({ className }: { className?: string }) {
                 width={40}
                 height={40}
                 className="h-6 w-6"
-                priority
               />
             </button>
           </div>

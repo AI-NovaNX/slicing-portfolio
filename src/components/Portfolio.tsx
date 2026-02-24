@@ -66,7 +66,6 @@ export function Portfolio() {
                     fill
                     sizes="(max-width: 768px) 100vw, 361px"
                     className="object-cover"
-                    priority={idx === 0}
                   />
                 </div>
 
@@ -126,7 +125,6 @@ export function Portfolio() {
                     fill
                     sizes="381px"
                     className="object-cover"
-                    priority={idx === 0}
                   />
                 </div>
 

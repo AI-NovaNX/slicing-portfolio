@@ -89,7 +89,6 @@ export function Experience() {
                           width={76}
                           height={32}
                           className="h-8 w-19 object-contain"
-                          priority={idx === 0}
                         />
                       </div>
                     ) : (
@@ -157,7 +156,6 @@ export function Experience() {
                           width={114}
                           height={48}
                           className="h-12 w-28.5 shrink-0 object-contain opacity-100"
-                          priority={idx === 0}
                         />
                       ) : null}
                     </div>

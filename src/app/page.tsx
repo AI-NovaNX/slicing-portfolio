@@ -32,7 +32,6 @@ export default function HomePage() {
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"
                   className="object-fill grayscale contrast-95 brightness-70"
-                  priority
                 />
 
                 <div className="pointer-events-none absolute inset-x-0 top-[42%] bottom-0 bg-linear-to-b from-transparent via-neutral-950/80 to-black mix-blend-multiply opacity-90" />

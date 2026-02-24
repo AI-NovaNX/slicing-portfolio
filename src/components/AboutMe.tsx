@@ -57,7 +57,6 @@ export function AboutMe() {
                 fill
                 sizes="170px"
                 className="rounded-none object-contain"
-                priority
               />
             </div>
 
@@ -161,7 +160,6 @@ export function AboutMe() {
                 fill
                 sizes="238px"
                 className="rounded-none object-contain"
-                priority
               />
             </div>
 

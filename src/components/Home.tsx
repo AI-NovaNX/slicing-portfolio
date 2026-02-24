@@ -20,7 +20,6 @@ function HomeIntroText({
           width={24}
           height={1}
           className="h-px w-6 object-contain md:hidden"
-          priority
         />
         <Image
           src="/icon/header/line5-114.svg"
@@ -29,7 +28,6 @@ function HomeIntroText({
           height={1}
           className="hidden h-px object-contain md:block"
           style={{ width: 60 }}
-          priority
         />
         <p
           id={introTextId}
