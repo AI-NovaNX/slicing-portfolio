@@ -11,6 +11,13 @@
   --font-display: var(--font-red-hat-display);
   --font-mono: var(--font-geist-mono);
 
+  /* Breakpoints: Tailwind defaults */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
   /* Foundation colors (from design system) */
   --color-base-white: #ffffff;
   --color-base-black: #000000;
@@ -102,6 +109,58 @@
   --radius: var(--radius-lg);
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
+
+  /* Typography scale (design system)
+     Overrides Tailwind v4 runtime text tokens (unlayered :root wins over @layer theme).
+  */
+  --text-xs: 0.75rem; /* 12px */
+  --text-xs--line-height: 24px;
+
+  --text-sm: 0.875rem; /* 14px */
+  --text-sm--line-height: 28px;
+
+  --text-md: 1rem; /* 16px */
+  --text-md--line-height: 30px;
+
+  /* Design system "Text md" = 16px / 30px. Tailwind's closest utility is text-base. */
+  --text-base: 1rem; /* 16px */
+  --text-base--line-height: 30px;
+
+  --text-lg: 1.125rem; /* 18px */
+  --text-lg--line-height: 32px;
+
+  --text-xl: 1.25rem; /* 20px */
+  --text-xl--line-height: 34px;
+
+  /* Display scale mapped onto Tailwind's larger text steps */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-2xl--line-height: 36px;
+
+  --text-3xl: 1.75rem; /* 28px */
+  --text-3xl--line-height: 38px;
+
+  --text-4xl: 2rem; /* 32px */
+  --text-4xl--line-height: 46px;
+
+  --text-5xl: 2.25rem; /* 36px */
+  --text-5xl--line-height: 48px;
+
+  --text-6xl: 2.5rem; /* 40px */
+  --text-6xl--line-height: 56px;
+
+  --text-7xl: 3rem; /* 48px */
+  --text-7xl--line-height: 60px;
+
+  --text-8xl: 3.5rem; /* 56px */
+  --text-8xl--line-height: 72px;
+
+  /* Font weights (design system) */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -167,11 +226,40 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@layer utilities {
+  .text-md {
+    font-size: var(--text-md);
+    line-height: var(--tw-leading, var(--text-md--line-height));
+  }
+}
+
+@media (min-width: 768px) {
+  @layer utilities {
+    .md\:text-md {
+      font-size: var(--text-md);
+      line-height: var(--tw-leading, var(--text-md--line-height));
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  @layer utilities {
+    .lg\:text-md {
+      font-size: var(--text-md);
+      line-height: var(--tw-leading, var(--text-md--line-height));
+    }
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  body[data-menu-open="true"] #page-content {
+    visibility: hidden;
   }
 }
