@@ -28,7 +28,9 @@ Buka http://localhost:3000
 - Responsif (mobile-first; `sm`, `md`, `lg`, `xl`)
 - Animasi (hover, scroll reveal, transisi)
 - Optimasi (gunakan `next/image`, cek Lighthouse)
-    Output dari Light house adalah sbb :
+    Output dari Lighthouse utk versi Desktop adalah sbb :
     ![Alt text](public/LighthouseTest/lighthouseDesktop.png)
+    Output dari Lighthouse utk versi Mobile adalah sbb :
+    ![Alt text](/public/LighthouseTest/lighthouseMobile.png)
 
 - Deploy (Vercel) + submit link repo & live demo
